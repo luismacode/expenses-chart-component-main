@@ -150,7 +150,7 @@ when I wanted to animate the graph of bars in the challenge I could not do it by
 
 ## Author
 
-- Linkedin - [luismachaca](www.linkedin.com/in/luismachaca)
+- Linkedin - [luismachaca](https://www.linkedin.com/in/luismachaca)
 - Frontend Mentor - [@luismacode](https://www.frontendmentor.io/profile/luismacode)
 - Twitter - [@luismacode](https://www.twitter.com/luismacode)
 
