@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/expenseschartcomponentmain-gNX4YtOjgA)
+- Live Site URL: [live site](https://luismacode.github.io/expenses-chart-component-main/)
 
 ## My process
 
