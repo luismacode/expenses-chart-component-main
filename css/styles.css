@@ -133,20 +133,27 @@ p,h1,h2{
     }
 }
 .bar__inner{
+    position: relative;
     display: flex;
     position: relative;
     flex-direction: column-reverse;
-    height: 100%;
     background-color: transparent;
-    position: relative;
+    height:0px;
 }
 .bar__button{
+    --bg-color:var(--cream);
+    background-color:var(--bg-color);
     border-radius: .2em;
-    height: inherit;
-    background-color: var(--soft-red);
     height: 100%;
+    transition: opacity .3s ease-in-out;
 }
-.bar__labely{
+.bar__button--red{
+    --bg-color: var(--soft-red);
+}
+.bar__button--cyan{
+    --bg-color: var(--cyan);
+}
+.bar__label-y{
     position: absolute;
     font-size: 1.15rem;
     left:-0.5em;
@@ -156,13 +163,14 @@ p,h1,h2{
     padding: .4em;
     border-radius: .3em;
     visibility: hidden;
+    transition: visibility .3s ease-in-out;
 }
 @media screen and (min-width:576px){
-    .bar__labely{
+    .bar__label-y{
         left:-0.3em;
     }
 }
-.bar__labelx{
+.bar__label-x{
     font-size: 1.2rem;
     color: var(--medium-brown);
     text-align: center;
@@ -202,5 +210,8 @@ p,h1,h2{
     button:hover{
         cursor: pointer;
         opacity: 60%;
+    }
+    button:hover + span{
+        visibility: visible;
     }
 }
